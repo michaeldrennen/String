@@ -1,0 +1,17 @@
+{
+    "name": "michaeldrennen/mung-string",
+    "description": "A php package for string manipulation.",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Drennen",
+            "email": "michaeldrennen74@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
