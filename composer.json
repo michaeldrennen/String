@@ -12,6 +12,11 @@
             "email": "michaeldrennen74@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {}
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MichaelDrennen\\MungString\\": "src"
+        }
+    },
 }
