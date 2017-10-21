@@ -4,6 +4,12 @@ namespace MichaelDrennen;
 
 class MungString {
 
+    /**
+     * @param $number
+     * @param $length
+     *
+     * @return string
+     */
     public static function zeroFill( $number, $length ) {
         $sPrintfString = '%0' . (int)$length . 's';
 
@@ -36,12 +42,9 @@ class MungString {
             return array_shift( $items ) . " and " . array_shift( $items );
         endif;
 
-        if ( 2 > count( $items ) ):
-            $lastItem          = array_pop( $items );
-            $concatenatedItems = implode( ", ", $items );
+        $lastItem          = array_pop( $items );
+        $concatenatedItems = implode( ", ", $items );
 
-            return $concatenatedItems . ", and " . $lastItem;
-        endif;
-        throw new \Exception( "How did you get an array with a negative size?" );
+        return $concatenatedItems . ", and " . $lastItem;
     }
 }
