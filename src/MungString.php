@@ -2,6 +2,11 @@
 
 namespace MichaelDrennen;
 
+/**
+ * Class MungString
+ *
+ * @package MichaelDrennen
+ */
 class MungString {
 
     /**
